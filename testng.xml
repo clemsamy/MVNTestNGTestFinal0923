@@ -4,7 +4,6 @@
   <test thread-count="5" name="MVN TestNG Test Demo">
 	  <classes>
 		   <class name="MVNTestNGPKG.MVNTestNGPGM" />
-	  </classes>
-	  
+	  </classes>	  
   </test> <!-- Test -->
 </suite> <!-- Suite -->
