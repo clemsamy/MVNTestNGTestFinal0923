@@ -15,6 +15,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 
 public class MVNTestNGPGM {
 	
@@ -46,9 +47,13 @@ public class MVNTestNGPGM {
 	public void beforeClass() {
 		System.out.println("This is my Pre-conditions Area");
 		
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\CA0\\eclipse-workspace-CAProjects\\MVNTestNGProject\\servers\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver","C:\\Users\\CA0\\eclipse-workspace-CAProjects\\MVNTestNGProject\\servers\\chromedriver.exe");
 		//WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
+		//driver = new ChromeDriver();
+		
+		WebDriverManager.edgedriver().setup();
+		driver = new EdgeDriver();
+		
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

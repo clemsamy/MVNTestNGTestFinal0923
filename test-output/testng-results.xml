@@ -2,40 +2,40 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-06T00:29:09 BST" name="Demo Test Suite" finished-at="2023-09-06T00:29:11 BST" duration-ms="2681">
+  <suite started-at="2023-09-06T00:51:24 BST" name="Demo Test Suite" finished-at="2023-09-06T00:51:32 BST" duration-ms="7431">
     <groups>
     </groups>
-    <test started-at="2023-09-06T00:29:09 BST" name="MVN TestNG Test Demo" finished-at="2023-09-06T00:29:11 BST" duration-ms="2681">
+    <test started-at="2023-09-06T00:51:24 BST" name="MVN TestNG Test Demo" finished-at="2023-09-06T00:51:32 BST" duration-ms="7431">
       <class name="MVNTestNGPKG.MVNTestNGPGM">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:MVNTestNGPKG.MVNTestNGPGM@7ce026d3]" started-at="2023-09-06T00:29:09 BST" name="beforeClass" finished-at="2023-09-06T00:29:11 BST" duration-ms="2316" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:MVNTestNGPKG.MVNTestNGPGM@7ce026d3]" started-at="2023-09-06T00:51:24 BST" name="beforeClass" finished-at="2023-09-06T00:51:31 BST" duration-ms="6947" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MVNTestNGPKG.MVNTestNGPGM@7ce026d3]" started-at="2023-09-06T00:29:11 BST" name="beforeMethod" finished-at="2023-09-06T00:29:11 BST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MVNTestNGPKG.MVNTestNGPGM@7ce026d3]" started-at="2023-09-06T00:51:31 BST" name="beforeMethod" finished-at="2023-09-06T00:51:31 BST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="testcase1()[pri:0, instance:MVNTestNGPKG.MVNTestNGPGM@7ce026d3]" started-at="2023-09-06T00:29:11 BST" name="testcase1" finished-at="2023-09-06T00:29:11 BST" duration-ms="325" status="PASS">
+        <test-method signature="testcase1()[pri:0, instance:MVNTestNGPKG.MVNTestNGPGM@7ce026d3]" started-at="2023-09-06T00:51:31 BST" name="testcase1" finished-at="2023-09-06T00:51:32 BST" duration-ms="446" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase1 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:MVNTestNGPKG.MVNTestNGPGM@7ce026d3]" started-at="2023-09-06T00:29:11 BST" name="afterMethod" finished-at="2023-09-06T00:29:11 BST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:MVNTestNGPKG.MVNTestNGPGM@7ce026d3]" started-at="2023-09-06T00:51:32 BST" name="afterMethod" finished-at="2023-09-06T00:51:32 BST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MVNTestNGPKG.MVNTestNGPGM@7ce026d3]" started-at="2023-09-06T00:29:11 BST" name="beforeMethod" finished-at="2023-09-06T00:29:11 BST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:MVNTestNGPKG.MVNTestNGPGM@7ce026d3]" started-at="2023-09-06T00:51:32 BST" name="beforeMethod" finished-at="2023-09-06T00:51:32 BST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="testcase2()[pri:0, instance:MVNTestNGPKG.MVNTestNGPGM@7ce026d3]" started-at="2023-09-06T00:29:11 BST" name="testcase2" finished-at="2023-09-06T00:29:11 BST" duration-ms="2" status="PASS">
+        <test-method signature="testcase2()[pri:0, instance:MVNTestNGPKG.MVNTestNGPGM@7ce026d3]" started-at="2023-09-06T00:51:32 BST" name="testcase2" finished-at="2023-09-06T00:51:32 BST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase2 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:MVNTestNGPKG.MVNTestNGPGM@7ce026d3]" started-at="2023-09-06T00:29:11 BST" name="afterMethod" finished-at="2023-09-06T00:29:11 BST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:MVNTestNGPKG.MVNTestNGPGM@7ce026d3]" started-at="2023-09-06T00:51:32 BST" name="afterMethod" finished-at="2023-09-06T00:51:32 BST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:MVNTestNGPKG.MVNTestNGPGM@7ce026d3]" started-at="2023-09-06T00:29:11 BST" name="afterClass" finished-at="2023-09-06T00:29:11 BST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:MVNTestNGPKG.MVNTestNGPGM@7ce026d3]" started-at="2023-09-06T00:51:32 BST" name="afterClass" finished-at="2023-09-06T00:51:32 BST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
